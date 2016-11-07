@@ -1,0 +1,8 @@
+<?php
+echo "addslashes <br>";
+
+$str = "Is your name O'Reilly?";
+
+// Outputs: Is your name O\'Reilly?
+echo addslashes($str);
+?>
